@@ -1,7 +1,7 @@
 # GoUtils - Comprehensive Go Utility Library
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/goutils)](https://goreportcard.com/report/github.com/yourusername/goutils)
-[![GoDoc](https://godoc.org/github.com/yourusername/goutils?status.svg)](https://godoc.org/github.com/yourusername/goutils)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hamzehaleess/goutils)](https://goreportcard.com/report/github.com/hamzehaleess/goutils)
+[![GoDoc](https://godoc.org/github.com/hamzehaleess/goutils?status.svg)](https://godoc.org/github.com/hamzehaleess/goutils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 GoUtils is a comprehensive Go utility library that provides **87 helper functions** across **8 specialized packages** for common programming tasks. Built with Go generics for type safety and zero dependencies (except UUID generation), this library offers essential utilities for array manipulation, string processing, validation, cryptography, file operations, mathematical calculations, type conversion, and time utilities.
@@ -18,7 +18,7 @@ GoUtils is a comprehensive Go utility library that provides **87 helper function
 ## 📦 Installation
 
 ```bash
-go get github.com/yourusername/goutils
+go get github.com/hamzehaleess/goutils
 ```
 
 ## 🏗️ Package Structure
@@ -27,7 +27,7 @@ go get github.com/yourusername/goutils
 Common array/slice operations for data manipulation.
 
 ```go
-import "github.com/yourusername/goutils/arrays"
+import "github.com/hamzehaleess/goutils/arrays"
 
 // Check if slice contains element
 found := arrays.Contains([]int{1, 2, 3}, 2) // true
@@ -62,7 +62,7 @@ shuffled := arrays.Shuffle([]int{1, 2, 3, 4, 5})
 Text processing and string manipulation utilities.
 
 ```go
-import "github.com/yourusername/goutils/strings"
+import "github.com/hamzehaleess/goutils/strings"
 
 // Reverse string
 reversed := strings.Reverse("hello") // "olleh"
@@ -99,7 +99,7 @@ contains := strings.ContainsIgnoreCase("Hello World", "WORLD") // true
 Input validation for common data formats.
 
 ```go
-import "github.com/yourusername/goutils/validation"
+import "github.com/hamzehaleess/goutils/validation"
 
 // Email validation
 isValid := validation.IsEmail("user@example.com") // true
@@ -136,7 +136,7 @@ isValid := validation.IsStrongPassword("MyPass123!") // true
 Mathematical operations and number utilities.
 
 ```go
-import "github.com/yourusername/goutils/math"
+import "github.com/hamzehaleess/goutils/math"
 
 // Absolute value
 abs := math.Abs(-5) // 5
@@ -177,7 +177,7 @@ rounded := math.Round(3.14159, 2) // 3.14
 Cryptographic operations and security utilities.
 
 ```go
-import "github.com/yourusername/goutils/crypto"
+import "github.com/hamzehaleess/goutils/crypto"
 
 // MD5 hash
 hash := crypto.MD5Hash("hello") // "5d41402abc4b2a76b9719d911017c592"
@@ -210,7 +210,7 @@ isValid := crypto.VerifyPassword("mypassword", hashed) // true
 File system operations and utilities.
 
 ```go
-import "github.com/yourusername/goutils/file"
+import "github.com/hamzehaleess/goutils/file"
 
 // Check if file exists
 exists := file.Exists("example.txt") // true/false
@@ -253,7 +253,7 @@ dirs, err := file.ListDirs("mydir")
 Type conversion and data transformation utilities.
 
 ```go
-import "github.com/yourusername/goutils/convert"
+import "github.com/hamzehaleess/goutils/convert"
 
 // String to int conversion
 num, err := convert.ToInt("123") // 123
@@ -293,7 +293,7 @@ binary := convert.ToBinary([]byte("Hi"))
 Date and time utilities for various operations.
 
 ```go
-import "github.com/yourusername/goutils/time"
+import "github.com/hamzehaleess/goutils/time"
 import "time"
 
 // Format duration human-readable
@@ -355,11 +355,11 @@ go test -v ./...
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+2. Create your feature branch (`git checkout -b feature/new-feature`)
 3. Add tests for your changes
 4. Ensure all tests pass (`go test ./...`)
-5. Commit your changes (`git commit -m 'Add amazing feature'`)
-6. Push to the branch (`git push origin feature/amazing-feature`)
+5. Commit your changes (`git commit -m 'Add new feature'`)
+6. Push to the branch (`git push origin feature/new-feature`)
 7. Open a Pull Request
 
 ## 📄 License
@@ -368,9 +368,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [Documentation](https://godoc.org/github.com/yourusername/goutils)
-- [Go Report Card](https://goreportcard.com/report/github.com/yourusername/goutils)
-- [Issues](https://github.com/yourusername/goutils/issues)
+- [Documentation](https://godoc.org/github.com/hamzehaleess/goutils)
+- [Go Report Card](https://goreportcard.com/report/github.com/hamzehaleess/goutils)
+- [Issues](https://github.com/hamzehaleess/goutils/issues)
 
 ## ⭐ Star History
 
